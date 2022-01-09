@@ -3,7 +3,7 @@
 // Author      : Kyler McMullin (wades39)
 // Version     : 2022/01/09
 // Copyright   : Your copyright notice
-// Description : C++ Console TicTacToe
+// Description : C++ implementation of TicTacToe that can be played in the Windows Command Prompt
 //============================================================================
 
 #include <iostream>
