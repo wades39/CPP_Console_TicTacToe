@@ -6,10 +6,9 @@
 // Description : C++ implementation of TicTacToe that can be played in the Windows Command Prompt
 //============================================================================
 
-#include <iostream>
-#include <string>
-#include <limits>
-#include <random>
+#include <iostream> // default import
+#include <string> // imported to use strings
+#include <limits> // imported to use limit in clearing cin buffer
 
 using namespace std;
 
@@ -192,7 +191,6 @@ int main() {
 			<< "Welcome to TicTacToe!\nHow many rows/columns would you like the grid to be?"
 			<< endl;
 	cin >> numSpaces;
-	//numSpaces = 3;
 	flushCin();
 
 	cout << "Generating a grid with " << numSpaces << " rows and columns..."
@@ -265,7 +263,6 @@ int main() {
 						<< ") to choose a space:  ";
 				// Get player input
 				cin >> playerMove;
-				//playerMove = 1 + (rand() % static_cast<int>(9 -1 + 1));
 
 				flushCin();
 
