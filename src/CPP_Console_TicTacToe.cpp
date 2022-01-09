@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : CPP_Console_TicTacToe.cpp
-// Author      : 
-// Version     :
+// Author      : Kyler McMullin (wades39)
+// Version     : 2022/01/09
 // Copyright   : Your copyright notice
 // Description : C++ Console TicTacToe
 //============================================================================
