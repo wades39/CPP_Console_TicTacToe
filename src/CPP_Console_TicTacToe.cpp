@@ -200,7 +200,6 @@ int main() {
 	int player1Score;
 	int player2Score;
 	int numMoves;
-	int playerMove;
 
 	bool player1Turn;
 	bool player1Starts;
@@ -209,7 +208,6 @@ int main() {
 	player1Score = 0;
 	player2Score = 0;
 	numMoves = 0;
-	playerMove = 0;
 
 	// Build a 2D array of integers to show the ownership of each space in the grid.
 	// 0 is neutral, 1 is player 1, 2 is player 2
